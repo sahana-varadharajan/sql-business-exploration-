@@ -127,7 +127,7 @@ Magist's customers are generally satisfied, and Magist offers real operational a
 ├── README.md
 ├── LICENSE
 ├── presentation/
-│   └── magist_eniac_presentation.pdf   # Final slide deck
+│   └── Team flux presentation.pdf   # Final slide deck
 ├── schema/
 │   └── magist_schema.pdf               # Database tables and relationships
 ├── sql/                                # SQL queries by topic
