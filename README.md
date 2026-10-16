@@ -169,6 +169,6 @@ Seeing other teams' presentations showed me where this analysis could go deeper.
 
 ## Project Files
 
-- [Final presentation](presentation/Team flux presentation.pdf)
-- [Database schema](schema/magist_schema.pdf)
+- [Final presentation](Team flux presentation.pdf)
+- [Database schema](magist_schema.pdf)
 - [SQL queries](sql/)
