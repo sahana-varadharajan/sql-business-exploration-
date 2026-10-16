@@ -36,9 +36,9 @@ The team split the analysis into three areas:
 ## Tools
 
 - **MySQL**: data exploration and analysis queries
-- **Tableau Public**: data visualization
+- **Tableau Public (desktop)**: data visualization
+- **Canva and Google Workspace (Docs, Sheets, Drive)**: team meeting notes and progress tracking
 - **Google Slides**: final presentation
-- **Google Workspace (Docs, Sheets, Drive)**: team meeting notes and progress tracking
 
 ---
 
@@ -125,10 +125,16 @@ Magist's customers are generally satisfied, and Magist offers real operational a
 
 ```
 ├── README.md
-├── sql/                 # SQL queries by topic (product, sellers, delivery, reviews)
-├── tableau/             # Tableau workbooks or links to Tableau Public
-├── images/              # Exported charts used in the presentation
-└── presentation/        # Final slide deck (PDF)
+├── LICENSE
+├── presentation/
+│   └── magist_eniac_presentation.pdf   # Final slide deck
+├── schema/
+│   └── magist_schema.pdf               # Database tables and relationships
+├── sql/                                # SQL queries by topic
+│   ├── 01_product_tech_analysis.sql
+│   ├── 02_seller_analysis.sql
+│   └── 03_reviews.sql
+└── images/                             # Charts used in the presentation
 ```
 
 ---
@@ -157,13 +163,14 @@ Seeing other teams' presentations showed me where this analysis could go deeper.
 
 ## Team
 
-- Sahana Varadharajan – Product, seller & Delivery analysis
+- Sahana Varadharajan – Product and seller analysis
 - Ali D – Delivery and logistics
 - Prajakta Joshi – Seller ecosystem
 
 ---
 
-## Links
+## Project Files
 
-- Tableau Public: [add link]
-- Presentation: https://docs.google.com/presentation/d/1iQybLzOppMGNAhZz1IVq4xxGqgVYa8AAuIlGSTCcUZ0/edit?usp=drive_link
+- [Final presentation](presentation/Team_flux_presentation.pdf)
+- [Database schema](schema/magist_schema.pdf)
+- [SQL queries](sql/)
