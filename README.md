@@ -125,15 +125,13 @@ Magist's customers are generally satisfied, and Magist offers real operational a
 
 ```
 ├── README.md
-├── LICENSE
 ├── presentation/
 │   └── Team flux presentation.pdf   # Final slide deck
 ├── schema/
 │   └── magist_schema.pdf               # Database tables and relationships
 ├── sql/                                # SQL queries by topic
-│   ├── 01_product_tech_analysis.sql
-│   ├── 02_seller_analysis.sql
-│   └── 03_reviews.sql
+│   ├── product_sql_analysis.sql
+│   ├── seller_sql_analysis.sql
 └── images/                             # Charts used in the presentation
 ```
 
