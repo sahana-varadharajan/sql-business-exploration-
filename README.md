@@ -125,13 +125,10 @@ Magist's customers are generally satisfied, and Magist offers real operational a
 
 ```
 ├── README.md
-├── presentation/
-│   └── Team flux presentation.pdf   # Final slide deck
-├── schema/
-│   └── magist_schema.pdf               # Database tables and relationships
-├── sql/                                # SQL queries by topic
-│   ├── product_sql_analysis.sql
-│   ├── seller_sql_analysis.sql
+├── Team flux presentation.pdf   # Final slide deck
+├── magist_schema.pdf               # Database tables and relationships
+├── product_sql_analysis.sql   # SQL queries by topic
+├── seller_sql_analysis.sql
 └── images/                             # Charts used in the presentation
 ```
 
@@ -165,10 +162,4 @@ Seeing other teams' presentations showed me where this analysis could go deeper.
 - Ali D – Delivery and logistics
 - Prajakta Joshi – Seller ecosystem
 
----
 
-## Project Files
-
-- [Final presentation](Team flux presentation.pdf)
-- [Database schema](magist_schema.pdf)
-- [SQL queries](sql/)
